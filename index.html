@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mon Portfolio</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#0b1020;color:#f5f5ff;line-height:1.6}
+nav{padding:22px 8%;display:flex;justify-content:space-between;border-bottom:1px solid #29314b}
+a{color:#aab6ff;text-decoration:none}
+nav a{margin-left:16px}
+header{padding:90px 8%;display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
+header div{max-width:600px}
+.tag{color:#aab6ff;letter-spacing:2px}
+h1{font-size:clamp(38px,6vw,65px);line-height:1.1}
+h1 span{color:#929fff}
+p{color:#c0c7da}
+.btn{display:inline-block;background:#929fff;color:#11162a;padding:12px 20px;border-radius:8px;margin:8px 8px 0 0;font-weight:bold}
+.art{font-size:85px;background:linear-gradient(135deg,#7c8cff,#bd74ff);padding:35px;border-radius:28px}
+section{padding:45px 8%}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.card{background:#151d32;border:1px solid #303956;border-radius:14px;padding:22px}
+h3{color:#aab6ff}
+footer{text-align:center;padding:25px;color:#aab0c5}
+</style>
+</head>
+<body>
+<nav><strong>DEV.</strong><div><a href="#about">À propos</a><a href="#projects">Projets</a><a href="#contact">Contact</a></div></nav>
+<header>
+<div>
+<p class="tag">ÉTUDIANT EN 1ERE année d'ingénierie des systémemes d'informatique</p>
+<h1>Je crée des expériences <span>web modernes.</span></h1>
+<p>Étudiant en ingénierie des systèmes d’information. Je développe mes compétences en HTML, CSS et JavaScript à travers des projets pratiques.</p>
+<a class="btn" href="#projects">Voir mes projets</a>
+<a class="btn" href="#contact">Me contacter</a>
+</div>
+<div class="art">{"</>"}</div>
+</header>
+<section id="about"><h2>À propos</h2><div class="card"><p>J’aime créer des sites web simples, modernes et adaptés aux téléphones. Je souhaite développer mes compétences et acquérir une expérience professionnelle.</p></div></section>
+<section><h2>Compétences</h2><div class="cards">
+<div class="card"><h3>HTML</h3><p>Structure des pages web.</p></div>
+<div class="card"><h3>CSS</h3><p>Design et mise en page responsive.</p></div>
+<div class="card"><h3>JavaScript</h3><p>Interactions et fonctionnalités.</p></div>
+</div></section>
+<section id="projects"><h2>Mes projets</h2><div class="cards">
+<div class="card"><h3>Portfolio</h3><p>Présentation de mon profil et de mes compétences.</p></div>
+<div class="card"><h3>Gestion de budget</h3><p>Application de suivi des dépenses.</p></div>
+<div class="card"><h3>Restaurant</h3><p>Site web avec menu et informations pratiques.</p></div>
+</div></section>
+<section id="contact"><h2>Contact</h2><div class="card"><p>Disponible pour échanger sur des projets web.</p><a class="btn" href="mailto:TON-EMAIL@example.com">M'envoyer un e-mail</a></div></section>
+<footer>© 2026 — Mon Portfolio</footer>
+</body>
+</html>
